@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(wall-wallpaper-concrete-colored-painted-textured-concept.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    background: #242526;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 65px;
+    line-height: 65px;
+}
+nav .wrapper{
+    max-width: 1250px;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper .logo a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
+    align-items: center;
+}
+
+fieldset{
+    padding-top: 10%;
+    border: none;
+}
+h1{
+	text-align: center;
+    font-weight: 300;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+    background: white;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin: auto;
+    position: relative;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;}
